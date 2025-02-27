@@ -5,20 +5,6 @@ This repository contains the code developed as part of the thesis titled **"Elec
 ## 📖 Description
 The objective of this work is to model and solve the electric vehicle assignment problem considering the limited capacity of charging stations. Mathematical models and optimization algorithms were developed to find efficient solutions.
 
-## 📂 Repository Structure
-
-```
-📁 EVSP-CR
- ├── 📁 scripts            # Algorithm implementations
- │   ├── model_arcs.py     # Arc-based model
- │   ├── model_routes.py   # Route-based model
- │   ├── heuristic.py      # LOWRES heuristic implementation
- │   ├── utils.py          # Auxiliary functions
- ├── 📁 results            # Computational experiment results
- ├── README.md             # This file
- ├── requirements.txt      # Necessary libraries to run the code
- └── LICENSE               # Code license
-```
 
 ## 🚀 Requirements
 To run the code, it is recommended to use Python 3.8 or later. Install dependencies by running:
@@ -26,6 +12,9 @@ To run the code, it is recommended to use Python 3.8 or later. Install dependenc
 ```bash
 pip install -r requirements.txt
 ```
+
+In each folder you will find an .ipynb which can create a random instance and optimize the problem.
+
 
 ## 📜 Usage
 The main scripts can be executed as follows:
