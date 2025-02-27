@@ -1,0 +1,5 @@
+gurobipy
+Cython
+numpy
+matplotlib
+setuptools
