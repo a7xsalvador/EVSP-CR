@@ -8,7 +8,7 @@ The objective of this work is to model and solve the electric vehicle assignment
 ## 📂 Repository Structure
 
 ```
-📁 thesis_code
+📁 EVSP-CR
  ├── 📁 scripts            # Algorithm implementations
  │   ├── model_arcs.py     # Arc-based model
  │   ├── model_routes.py   # Route-based model
