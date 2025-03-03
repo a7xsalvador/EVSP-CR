@@ -4,6 +4,13 @@ This repository contains the code developed as part of the thesis titled **"Elec
 ## Description
 The objective of this work is to model and solve the electric vehicle assignment problem considering the limited capacity of charging stations. Mathematical models and optimization algorithms were developed to find efficient solutions.
 
+- **compatibility.py** has funtions for the compatibility relations defined in the thesis.
+- **generate_data.py** has a function that generates random instances.
+- **graph_construction.py** creates the arcs and nodes for a given instance. It also estimates de cost and fuel consumption of each arc based on the distance between two elements of a random generated city in `generate_data.py`.
+- **initial_model.py** has a function that relaxes the master problem and calls the column generation algorithm.
+- **lp_functions.py** has auxiliar functions needed in ´initial_model.py´.
+- **model_functions.py** has functions needed before creating an instance: for time discretization, for computing the Manhattan distance, and for estimate the time to go from one point to another within the city.
+
 
 ## Requirements
 To run the code, it is recommended to use Python 3.8 or later. Install dependencies by running:
@@ -15,7 +22,9 @@ pip install -r requirements.txt
 In each folder you will find an .ipynb which can create a random instance and optimize the problem.
 
 
-## Usage The main scripts can be executed as follows: ```bash
+## Usage The main scripts can be executed as follows: 
+
+```bash
 python scripts/model_arcs.py
 ```
 
@@ -29,7 +38,8 @@ python scripts/heuristic.py
 ```
 
 ## Thesis Data
-The test datasets used in the experiments are available in the `data/` folder.
+The results of the implementation of the algorithm can be found in the folder `data`.
+
 
 ## License
 This code is distributed under the APACHE license. See the `LICENSE` file for more details.
