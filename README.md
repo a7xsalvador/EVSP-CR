@@ -4,12 +4,12 @@ This repository contains the code developed as part of the thesis titled **"Elec
 ## Description
 The objective of this work is to model and solve the electric vehicle assignment problem considering the limited capacity of charging stations. Mathematical models and optimization algorithms were developed to find efficient solutions.
 
-- **compatibility.py** has funtions for the compatibility relations defined in the thesis.
+- **compatibility.py** has functions for the compatibility relations defined in the thesis.
 - **generate_data.py** has a function that generates random instances.
-- **graph_construction.py** creates the arcs and nodes for a given instance. It also estimates de cost and fuel consumption of each arc based on the distance between two elements of a random generated city in `generate_data.py`.
+- **graph_construction.py** creates the arcs and nodes for a given instance. It also estimates the cost and fuel consumption of each arc based on the distance between two elements of a randomly generated city in `generate_data.py`.
 - **initial_model.py** has a function that relaxes the master problem and calls the column generation algorithm.
-- **lp_functions.py** has auxiliar functions needed in ´initial_model.py´.
-- **model_functions.py** has functions needed before creating an instance: for time discretization, for computing the Manhattan distance, and for estimate the time to go from one point to another within the city.
+- **lp_functions.py** has auxiliary functions needed in `initial_model.py`.
+- **model_functions.py** has functions needed before creating an instance: for time discretization, for computing the Manhattan distance, and for estimating the time to go from one point to another within the city.
 
 
 ## Requirements
