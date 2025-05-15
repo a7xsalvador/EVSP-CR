@@ -2,7 +2,7 @@
 import random 
 import model_functions as mf
 
-def generate_data(seed, num_travels, num_depots, num_charge_stations, num_passenger_stations, size_square, v_max, v_min, time_window, max_capacity_charge_station, min_capacity_charge_station, list_time, speed_bus, dic_time_lr, lowres):
+def generate_data(seed, num_travels, num_depots, num_charge_stations, num_passenger_stations, size_square, v_max, v_min, time_window, max_capacity_charge_station, min_capacity_charge_station, list_time, speed_bus, list_time_low_res, lowres):
     '''
     Genera datos aleatorios para coordenadas de las estaciones de pasajero, 
     depósitos y estaciones de carga devolviendo un diccionario con viajes 
@@ -18,10 +18,7 @@ def generate_data(seed, num_travels, num_depots, num_charge_stations, num_passen
     Stations_chrg_time = [(s,time) for s in Stations_chrg for time in list_time]
 
     
-    dic_Stations_chrg_time_low_res = {}
-
-    for key, value in dic_time_lr.items():
-        dic_Stations_chrg_time_low_res[key] =  [(s,time) for s in Stations_chrg for time in value] if lowres == True else []
+    Stations_chrg_time_low_res = [(s,time) for s in Stations_chrg for time in list_time_low_res] if lowres == True else []
 
 
     #------ EMPIEZA GENERACION ALEATORIA
@@ -51,4 +48,4 @@ def generate_data(seed, num_travels, num_depots, num_charge_stations, num_passen
     
     rs_kt = {(k,t): random.randint(min_capacity_charge_station,max_capacity_charge_station) for k in Stations_chrg for t in list_time} # rs_kt devuelve la capacidad de la estacion k en el tiempo t
 
-    return Travels, Depots, Stations_chrg, Stations_chrg_time, coord_passenger_stations, coord_depots, coord_charge_stations, T_passenger_stations, T_ab, D_v, rs_kt, dic_Stations_chrg_time_low_res
+    return Travels, Depots, Stations_chrg, Stations_chrg_time, coord_passenger_stations, coord_depots, coord_charge_stations, T_passenger_stations, T_ab, D_v, rs_kt, Stations_chrg_time_low_res
