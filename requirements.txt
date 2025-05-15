@@ -3,3 +3,7 @@ Cython
 numpy
 matplotlib
 setuptools
+pandas
+defaultdict
+logging
+cythonize
