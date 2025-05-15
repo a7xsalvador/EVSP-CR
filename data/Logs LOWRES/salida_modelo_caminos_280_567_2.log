@@ -1,0 +1,99 @@
+
+Gurobi 11.0.1 (mac64[arm]) logging started Sat Feb  8 14:41:44 2025
+
+Set parameter LogFile to value "logs_new/salida_modelo_caminos_280_567_2.log"
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (mac64[arm] - Darwin 24.3.0 24D60)
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 533 rows, 1475 columns and 5993 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e+00, 1e+10]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+02]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  1.092000000e+03
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (mac64[arm] - Darwin 24.3.0 24D60)
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 533 rows, 1475 columns and 5993 nonzeros
+Model fingerprint: 0x857ee412
+Variable types: 0 continuous, 1475 integer (1475 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e+00, 1e+10]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+02]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 2.800000e+12
+Presolve removed 250 rows and 0 columns
+Presolve time: 0.01s
+Presolved: 283 rows, 1475 columns, 5769 nonzeros
+Variable types: 0 continuous, 1475 integer (1475 binary)
+Found heuristic solution: objective 2.760000e+12
+
+Root relaxation: objective 1.092000e+03, 1523 iterations, 0.04 seconds (0.07 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1092.00000    0  220 2.7600e+12 1092.00000   100%     -    0s
+H    0     0                    3.800000e+11 1092.00000   100%     -    0s
+H    0     0                    2.700000e+11 1092.00000   100%     -    0s
+H    0     0                    2.400000e+11 1092.00000   100%     -    0s
+H    0     0                    1.900000e+11 1092.00000   100%     -    0s
+H    0     0                    1.400000e+11 1092.45561   100%     -    0s
+     0     0 1092.45561    0  241 1.4000e+11 1092.45561   100%     -    0s
+H    0     0                    1.100000e+11 1092.45561   100%     -    0s
+H    0     0                    8.000000e+10 1092.45561   100%     -    0s
+     0     0 1092.71142    0  255 8.0000e+10 1092.71142   100%     -    0s
+     0     0 1092.75598    0  247 8.0000e+10 1092.75598   100%     -    0s
+     0     0 1092.76791    0  257 8.0000e+10 1092.76791   100%     -    0s
+     0     0 1092.81120    0  257 8.0000e+10 1092.81120   100%     -    0s
+     0     2 1092.81241    0  257 8.0000e+10 1092.81241   100%     -    0s
+H   34    40                    7.000000e+10 1094.07034   100%  76.1    0s
+H   77    86                    5.000000e+10 1094.24762   100%  77.6    0s
+H  119   122                    5.000000e+10 1094.50057   100%  76.7    0s
+H  146   155                    4.000000e+10 1094.50057   100%  81.0    0s
+H 1508  1434                    3.000000e+10 1094.50057   100%  65.3    2s
+H 1604  1452                    2.000000e+10 1094.50599   100%  64.8    2s
+H 1655  1449                    2.000000e+10 1094.50599   100%  64.6    2s
+H 2727  1997                    2.000000e+10 1095.27480   100%  65.4    4s
+  2734  2063 1147.93871   50  189 2.0000e+10 1095.27480   100%  65.4    5s
+H 2940  1993                    1.000000e+10 1095.27480   100%  64.6    5s
+H 3015  1958                    1.000000e+10 1095.27480   100%  64.3    5s
+H 5547  2949                    1.000000e+10 1099.75801   100%  62.5    7s
+H 8721  2772                    1144.0000000 1101.32977  3.73%  63.0    9s
+ 11044  3950 1107.32744   26  208 1144.00000 1102.80542  3.60%  60.4   10s
+H14755  5425                    1136.0000000 1104.22090  2.80%  58.0   11s
+ 19270  6228 1125.72189   50  210 1136.00000 1104.22090  2.80%  57.6   15s
+ 35716  7480     cutoff   60      1136.00000 1110.26826  2.27%  52.8   20s
+ 44127  9203 1114.82026   42  242 1136.00000 1112.03957  2.11%  51.5   25s
+ 46567  9654 1116.10486   52  237 1136.00000 1112.03957  2.11%  52.1   30s
+ 60329  7834 1116.91684   55  232 1136.00000 1114.91317  1.86%  51.8   35s
+*63362  6541              60    1134.0000000 1115.95381  1.59%  51.7   36s
+ 78974  3235     cutoff   57      1134.00000 1122.12278  1.05%  50.4   40s
+
+Cutting planes:
+  Gomory: 3
+  Clique: 4
+  Zero half: 6
+
+Explored 88589 nodes (4336457 simplex iterations) in 42.14 seconds (98.46 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 10: 1134 1136 1144 ... 3e+10
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.134000000000e+03, best bound 1.134000000000e+03, gap 0.0000%

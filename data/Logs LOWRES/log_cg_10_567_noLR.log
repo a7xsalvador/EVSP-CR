@@ -1,0 +1,58 @@
+2025-02-15 11:54:21,192 - INFO - 	count	z_opt	time_spp	time_lp	time_total	ncols	nrows	time_spp_low_res	n_cols_low_res
+2025-02-15 11:54:21,236 - INFO - 	1	60000000016.0	0	0.00013399124145507812	0.044036865234375	13	263	0	0
+2025-02-15 11:54:21,253 - INFO - 	2	40000000036.0	0	0.0002770423889160156	0.061109066009521484	16	263	0	0
+2025-02-15 11:54:21,270 - INFO - 	3	30000000049.0	0	0.0003631114959716797	0.07787227630615234	19	263	0	0
+2025-02-15 11:54:21,287 - INFO - 	4	20000000043.0	0	0.00047516822814941406	0.09479641914367676	22	263	0	0
+2025-02-15 11:54:21,304 - INFO - 	5	20000000043.0	0	0.0005559921264648438	0.11185717582702637	25	263	0	0
+2025-02-15 11:54:21,322 - INFO - 	6	10000000058.0	0	0.0006351470947265625	0.12908148765563965	28	263	0	0
+2025-02-15 11:54:21,338 - INFO - 	7	73.0	0	0.0007174015045166016	0.14591622352600098	31	263	0	0
+2025-02-15 11:54:21,355 - INFO - 
+ya no tiene columnas con costo reducido negative
+2025-02-15 11:54:21,355 - INFO - Set parameter OutputFlag to value 1
+2025-02-15 11:54:21,357 - INFO - Set parameter LogFile to value "logs_new/salida_modelo_caminos_10_567_noLR.log"
+2025-02-15 11:54:21,357 - INFO - Set parameter TimeLimit to value 7200
+2025-02-15 11:54:21,358 - INFO - Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (mac64[arm] - Darwin 24.3.0 24D60)
+2025-02-15 11:54:21,358 - INFO - 
+2025-02-15 11:54:21,359 - INFO - CPU model: Apple M2
+2025-02-15 11:54:21,359 - INFO - Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+2025-02-15 11:54:21,359 - INFO - 
+2025-02-15 11:54:21,360 - INFO - Optimize a model with 263 rows, 31 columns and 70 nonzeros
+2025-02-15 11:54:21,360 - INFO - Coefficient statistics:
+2025-02-15 11:54:21,360 - INFO -   Matrix range     [1e+00, 1e+00]
+2025-02-15 11:54:21,361 - INFO -   Objective range  [6e+00, 1e+10]
+2025-02-15 11:54:21,361 - INFO -   Bounds range     [0e+00, 0e+00]
+2025-02-15 11:54:21,362 - INFO -   RHS range        [1e+00, 2e+02]
+2025-02-15 11:54:21,362 - INFO - Warning: Model contains large objective coefficients
+2025-02-15 11:54:21,362 - INFO -          Consider reformulating model or setting NumericFocus parameter
+2025-02-15 11:54:21,363 - INFO -          to avoid numerical issues.
+2025-02-15 11:54:21,363 - INFO - 
+2025-02-15 11:54:21,363 - INFO - Solved in 0 iterations and 0.00 seconds (0.00 work units)
+2025-02-15 11:54:21,364 - INFO - Optimal objective  7.300000000e+01
+2025-02-15 11:54:21,364 - INFO - Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (mac64[arm] - Darwin 24.3.0 24D60)
+2025-02-15 11:54:21,365 - INFO - 
+2025-02-15 11:54:21,365 - INFO - CPU model: Apple M2
+2025-02-15 11:54:21,365 - INFO - Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+2025-02-15 11:54:21,365 - INFO - 
+2025-02-15 11:54:21,366 - INFO - Optimize a model with 263 rows, 31 columns and 70 nonzeros
+2025-02-15 11:54:21,366 - INFO - Model fingerprint: 0x3bd70082
+2025-02-15 11:54:21,366 - INFO - Variable types: 0 continuous, 31 integer (31 binary)
+2025-02-15 11:54:21,367 - INFO - Coefficient statistics:
+2025-02-15 11:54:21,367 - INFO -   Matrix range     [1e+00, 1e+00]
+2025-02-15 11:54:21,368 - INFO -   Objective range  [6e+00, 1e+10]
+2025-02-15 11:54:21,368 - INFO -   Bounds range     [0e+00, 0e+00]
+2025-02-15 11:54:21,369 - INFO -   RHS range        [1e+00, 2e+02]
+2025-02-15 11:54:21,369 - INFO - Warning: Model contains large objective coefficients
+2025-02-15 11:54:21,369 - INFO -          Consider reformulating model or setting NumericFocus parameter
+2025-02-15 11:54:21,370 - INFO -          to avoid numerical issues.
+2025-02-15 11:54:21,371 - INFO - Found heuristic solution: objective 1.000000e+11
+2025-02-15 11:54:21,373 - INFO - Presolve removed 263 rows and 31 columns
+2025-02-15 11:54:21,374 - INFO - Presolve time: 0.00s
+2025-02-15 11:54:21,374 - INFO - Presolve: All rows and columns removed
+2025-02-15 11:54:21,374 - INFO - 
+2025-02-15 11:54:21,375 - INFO - Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+2025-02-15 11:54:21,375 - INFO - Thread count was 1 (of 8 available processors)
+2025-02-15 11:54:21,375 - INFO - 
+2025-02-15 11:54:21,376 - INFO - Solution count 2: 73 1e+11 
+2025-02-15 11:54:21,376 - INFO - 
+2025-02-15 11:54:21,376 - INFO - Optimal solution found (tolerance 1.00e-04)
+2025-02-15 11:54:21,377 - INFO - Best objective 7.300000000000e+01, best bound 7.300000000000e+01, gap 0.0000%

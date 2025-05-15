@@ -1,0 +1,54 @@
+2025-02-08 11:13:26,584 - INFO - 	count	z_opt	time_spp	time_lp	time_total	ncols	nrows	time_spp_low_res	n_cols_low_res
+2025-02-08 11:13:26,587 - INFO - 	1	20000000022.0	0	0.00010704994201660156	0.0022089481353759766	7	257	0.0014395713806152344	3
+2025-02-08 11:13:26,589 - INFO - 	2	10000000038.0	0	0.00024008750915527344	0.0045850276947021484	10	257	0.002977132797241211	6
+2025-02-08 11:13:26,591 - INFO - 	3	54.0	0	0.00030875205993652344	0.006710052490234375	13	257	0.004308938980102539	9
+2025-02-08 11:13:26,599 - INFO - 
+ya no tiene columnas con costo reducido negative
+2025-02-08 11:13:26,600 - INFO - Set parameter OutputFlag to value 1
+2025-02-08 11:13:26,600 - INFO - Set parameter LogFile to value "logs_new/salida_modelo_caminos_4_567.log"
+2025-02-08 11:13:26,601 - INFO - Set parameter TimeLimit to value 7200
+2025-02-08 11:13:26,601 - INFO - Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (mac64[arm] - Darwin 24.3.0 24D60)
+2025-02-08 11:13:26,601 - INFO - 
+2025-02-08 11:13:26,602 - INFO - CPU model: Apple M2
+2025-02-08 11:13:26,602 - INFO - Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+2025-02-08 11:13:26,602 - INFO - 
+2025-02-08 11:13:26,603 - INFO - Optimize a model with 257 rows, 13 columns and 24 nonzeros
+2025-02-08 11:13:26,603 - INFO - Coefficient statistics:
+2025-02-08 11:13:26,604 - INFO -   Matrix range     [1e+00, 1e+00]
+2025-02-08 11:13:26,604 - INFO -   Objective range  [7e+00, 1e+10]
+2025-02-08 11:13:26,605 - INFO -   Bounds range     [0e+00, 0e+00]
+2025-02-08 11:13:26,605 - INFO -   RHS range        [1e+00, 2e+02]
+2025-02-08 11:13:26,605 - INFO - Warning: Model contains large objective coefficients
+2025-02-08 11:13:26,606 - INFO -          Consider reformulating model or setting NumericFocus parameter
+2025-02-08 11:13:26,606 - INFO -          to avoid numerical issues.
+2025-02-08 11:13:26,607 - INFO - 
+2025-02-08 11:13:26,607 - INFO - Solved in 0 iterations and 0.00 seconds (0.00 work units)
+2025-02-08 11:13:26,607 - INFO - Optimal objective  5.400000000e+01
+2025-02-08 11:13:26,608 - INFO - Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (mac64[arm] - Darwin 24.3.0 24D60)
+2025-02-08 11:13:26,608 - INFO - 
+2025-02-08 11:13:26,608 - INFO - CPU model: Apple M2
+2025-02-08 11:13:26,609 - INFO - Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+2025-02-08 11:13:26,609 - INFO - 
+2025-02-08 11:13:26,609 - INFO - Optimize a model with 257 rows, 13 columns and 24 nonzeros
+2025-02-08 11:13:26,610 - INFO - Model fingerprint: 0x66b706a6
+2025-02-08 11:13:26,610 - INFO - Variable types: 0 continuous, 13 integer (13 binary)
+2025-02-08 11:13:26,610 - INFO - Coefficient statistics:
+2025-02-08 11:13:26,611 - INFO -   Matrix range     [1e+00, 1e+00]
+2025-02-08 11:13:26,611 - INFO -   Objective range  [7e+00, 1e+10]
+2025-02-08 11:13:26,611 - INFO -   Bounds range     [0e+00, 0e+00]
+2025-02-08 11:13:26,611 - INFO -   RHS range        [1e+00, 2e+02]
+2025-02-08 11:13:26,612 - INFO - Warning: Model contains large objective coefficients
+2025-02-08 11:13:26,614 - INFO -          Consider reformulating model or setting NumericFocus parameter
+2025-02-08 11:13:26,617 - INFO -          to avoid numerical issues.
+2025-02-08 11:13:26,634 - INFO - Found heuristic solution: objective 4.000000e+10
+2025-02-08 11:13:26,635 - INFO - Presolve removed 257 rows and 13 columns
+2025-02-08 11:13:26,635 - INFO - Presolve time: 0.00s
+2025-02-08 11:13:26,635 - INFO - Presolve: All rows and columns removed
+2025-02-08 11:13:26,636 - INFO - 
+2025-02-08 11:13:26,636 - INFO - Explored 0 nodes (0 simplex iterations) in 0.03 seconds (0.00 work units)
+2025-02-08 11:13:26,636 - INFO - Thread count was 1 (of 8 available processors)
+2025-02-08 11:13:26,637 - INFO - 
+2025-02-08 11:13:26,641 - INFO - Solution count 2: 54 4e+10 
+2025-02-08 11:13:26,643 - INFO - 
+2025-02-08 11:13:26,643 - INFO - Optimal solution found (tolerance 1.00e-04)
+2025-02-08 11:13:26,644 - INFO - Best objective 5.400000000000e+01, best bound 5.400000000000e+01, gap 0.0000%
