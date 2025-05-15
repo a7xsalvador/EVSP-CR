@@ -1,0 +1,121 @@
+
+Gurobi 11.0.1 (mac64[arm]) logging started Wed May 22 17:50:20 2024
+
+Set parameter LogFile to value "logs_new/salida_modelo_caminos_300_123.log"
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (mac64[arm] - Darwin 23.4.0 23E224)
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 553 rows, 1897 columns and 11014 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e+00, 1e+10]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+02]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  8.190000000e+02
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (mac64[arm] - Darwin 23.4.0 23E224)
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 553 rows, 1897 columns and 11014 nonzeros
+Model fingerprint: 0xaa2424bf
+Variable types: 0 continuous, 1897 integer (1897 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e+00, 1e+10]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+02]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 3.000000e+12
+Presolve removed 250 rows and 0 columns
+Presolve time: 0.04s
+Presolved: 303 rows, 1897 columns, 10620 nonzeros
+Variable types: 0 continuous, 1897 integer (1897 binary)
+Found heuristic solution: objective 2.980000e+12
+
+Root relaxation: objective 8.190000e+02, 1899 iterations, 0.18 seconds (0.23 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  819.00000    0  275 2.9800e+12  819.00000   100%     -    0s
+H    0     0                    9.500000e+11  819.00000   100%     -    0s
+H    0     0                    7.400000e+11  819.00000   100%     -    0s
+H    0     0                    7.200000e+11  819.00000   100%     -    0s
+H    0     0                    4.800000e+11  819.00000   100%     -    0s
+H    0     0                    4.700000e+11  819.00000   100%     -    0s
+H    0     0                    4.500000e+11  819.00000   100%     -    0s
+     0     0  819.02040    0  285 4.5000e+11  819.02040   100%     -    0s
+     0     0  819.78628    0  288 4.5000e+11  819.78628   100%     -    1s
+H    0     0                    4.300000e+11  819.78628   100%     -    1s
+     0     0  819.78628    0  291 4.3000e+11  819.78628   100%     -    1s
+     0     0  819.78628    0  303 4.3000e+11  819.78628   100%     -    1s
+     0     0  819.78628    0  303 4.3000e+11  819.78628   100%     -    1s
+H    0     0                    4.200000e+11  819.78628   100%     -    1s
+H    0     0                    3.800000e+11  819.78628   100%     -    1s
+     0     2  819.78628    0  303 3.8000e+11  819.78628   100%     -    1s
+H   31    40                    3.300000e+11  820.42636   100%   180    1s
+H   72    80                    3.100000e+11  821.09753   100%   166    2s
+   107   116  840.60426   10  287 3.1000e+11  821.50474   100%   171  904s
+H  111   116                    2.600000e+11  821.50474   100%   169  904s
+   115   129  842.75834   11  283 2.6000e+11  821.50474   100%   173  905s
+   737   779 5.4067e+10   66  252 2.6000e+11  821.50474   100%   189  910s
+H 1040  1046                    2.400000e+11  821.50474   100%   166  912s
+H 1048  1046                    2.300000e+11  821.50474   100%   165  912s
+  1618  1723 4.0709e+10   53  276 2.3000e+11  821.50474   100%   152  915s
+  2577  2441 1.0011e+11   82  302 2.3000e+11  822.06350   100%   131  921s
+  2810  2610 1.1691e+10   34  272 2.3000e+11  822.06350   100%   136  925s
+H 2982  2594                    2.000000e+11  822.06350   100%   143  927s
+  3178  2746 6.9677e+10   56  253 2.0000e+11  822.06350   100%   150  930s
+  3205  2769 7.7922e+10   57  256 2.0000e+11  822.06350   100%   150 1830s
+  3737  3075  827.69892   19  286 2.0000e+11  822.06350   100%   152 1835s
+  4241  3302 2.3817e+10   60  262 2.0000e+11  822.06350   100%   151 1841s
+H 4246  3172                    1.900000e+11  822.06350   100%   151 1841s
+  4440  3343 1.1755e+11   77  252 1.9000e+11  822.06350   100%   150 1845s
+  5284  3828  871.42483   31  280 1.9000e+11  824.41001   100%   150 1850s
+  6856  4746 6.8489e+09   38  275 1.9000e+11  824.73948   100%   142 2755s
+  7559  4993  863.80658   38  282 1.9000e+11  825.05999   100%   140 2761s
+  9096  6239  846.36043   22  274 1.9000e+11  825.99128   100%   134 2765s
+ 11016  7980 6.6982e+10   90  277 1.9000e+11  825.99128   100%   129 2770s
+ 12833  9962 8.7542e+10   67  253 1.9000e+11  827.22013   100%   125 2775s
+ 13733 10232  896.17409   28  274 1.9000e+11  827.25855   100%   123 3683s
+ 14043 10247 1.5424e+10   42  270 1.9000e+11  827.25855   100%   123 3686s
+ 14261 10774  829.89254   24  278 1.9000e+11  827.27290   100%   122 3690s
+ 16211 12686  853.60145   29  282 1.9000e+11  827.81831   100%   119 3695s
+ 17528 13332  833.34102   24  280 1.9000e+11  828.03350   100%   118 3702s
+ 18620 14491 8.6367e+10   66  253 1.9000e+11  828.03350   100%   118 4481s
+ 18902 15174 7.3032e+10   70  257 1.9000e+11  828.17229   100%   117 4485s
+ 20760 17068 1.5193e+11  105  257 1.9000e+11  828.42682   100%   116 4490s
+ 22896 18147  879.98090   33  268 1.9000e+11  828.69789   100%   114 4498s
+ 23658 19794 1.0121e+11   92  246 1.9000e+11  828.88286   100%   114 4501s
+ 26835 21960 1.2656e+11   89  261 1.9000e+11  829.19716   100%   112 4506s
+ 27267 22614  875.24517   24  277 1.9000e+11  829.19716   100%   112 5408s
+ 27991 23303 1.8843e+11   68  241 1.9000e+11  829.39004   100%   112 5410s
+ 29695 24128 1.4361e+11  120  303 1.9000e+11  829.39004   100%   111 6342s
+ 29704 24134 4.2842e+10   51  306 1.9000e+11  829.39004   100%   111 6346s
+ 29710 24138 7.1685e+10   70  312 1.9000e+11  829.39004   100%   111 6350s
+ 29719 24144 1.0957e+11  114  317 1.9000e+11  829.39004   100%   111 6355s
+
+Cutting planes:
+  Gomory: 12
+  Clique: 23
+  Flow cover: 4
+  Zero half: 5
+
+Explored 29722 nodes (3314959 simplex iterations) in 7257.90 seconds (205.47 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 10: 1.9e+11 2e+11 2.3e+11 ... 4.3e+11
+
+Time limit reached
+Best objective 1.900000009610e+11, best bound 8.293900441943e+02, gap 100.0000%

@@ -1,0 +1,3 @@
+tiempo total	3647.10808134079
+z_continua	1222.0
+z_heuristica	30000001363.0
